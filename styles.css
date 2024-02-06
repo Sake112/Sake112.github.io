@@ -1,0 +1,32 @@
+body {
+
+    font-size: 12pt; background-color: #fdfdfd; margin: 10pt; color: midnightblue;
+    }
+    
+    header {
+    
+    color: #303030; font-style: italic; text-shadow: purple; text-align: center; font-weight: bold; letter-spacing: 2px;
+        font-family: Arial, Helvetica, sans-serif; font-size: large;
+    }
+    
+    H1 {
+        color: #303030; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size: larger;
+    }
+
+    h2 {
+        color: #303030; font-family: 'Times New Roman', Times, serif; font-size: medium;
+    }
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif; color: #303031;font-size: medium;
+    }
+
+    a:hover {
+        background-color: purple;
+    }
+    a:active {
+        background-color: aqua;
+    }
+
+    div {
+        border: 2px black; text-align: center;
+    }
