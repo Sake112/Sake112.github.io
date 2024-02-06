@@ -27,6 +27,6 @@ body {
         background-color: aqua;
     }
 
-    div {
+    .mydiv {
         border: 10px black; text-align: center;
     }
