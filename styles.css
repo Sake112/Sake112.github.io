@@ -3,6 +3,33 @@ body {
     font-size: 12pt; background-color: #fdfdfd; margin: 10pt; color: midnightblue;
     }
     
+    Img{
+        width: 100px;
+        height: 100px;
+        border-radius: 90%;
+        object-fit: contain;
+    }
+
+    .nav{
+        background-color: aquamarine;
+        overflow: hidden;
+    }
+
+    .nav a:hover {
+        background-color: aquamarine;
+        color: antiquewhite;
+    }
+
+    .dropdown{
+        float: left;
+        overflow: hidden;
+    }
+
+    img:hover {
+        transform: scale3d(1.4);
+        transition: 0.3s;
+    }
+
     header {
     
     color: #303030; font-style: italic; text-shadow: purple; text-align: center; font-weight: bold; letter-spacing: 2px;
