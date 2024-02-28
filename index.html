@@ -5,6 +5,14 @@
         <title>
             Shaf Kenth Resume
         </title>
+        <script>
+            function getName() {
+                let name = prompt("please enter your name");
+                if (name) {
+                    document.getElementById("output").innerHTML = name;
+                }
+            }
+        </script>
     </head>
     <br>
     <br>
@@ -89,5 +97,10 @@
                 <li>providing restaurants in my area with free videogprahy and social media managemnet servives</li>
             </Ul>
         </p>
+        <h5>enter your name</h5>
+        <button onclick="getName()"> 
+            click me
+        </button>
+        <div id="output"></div>
     </body>
 </html>
