@@ -1,0 +1,10 @@
+h1{
+    align-items: center;
+    background-color: darkgray;
+    color: black;
+}
+
+body{
+    background-color: gray;
+    text-align: center;
+}
