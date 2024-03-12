@@ -17,15 +17,6 @@ body{
     font-family: sans-serif;
 }
 
-button {
-    padding: 12px;
-    text-decoration: none;
-    color: white; /* This sets the text color to white */
-    text-transform: uppercase;
-    border: none;
-    background-color: #007bff; /* Example button color */
-    cursor: pointer;
-}
 
 a:hover{
     background-color: white;
