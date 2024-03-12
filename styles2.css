@@ -7,6 +7,7 @@ body{
     text-transform: uppercase;
     border: 3px;
     cursor: pointer;
+    background-color: white;
 }
 
 .center{
@@ -16,9 +17,4 @@ body{
     height: 200px;
     background-color: darkgray;
     font-family: sans-serif;
-}
-
-.a:hover{
-    background-color: white;
-
 }
