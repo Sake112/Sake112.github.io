@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <title>
+            Shaf Kenth Resume
+        </title>
+        <script>
+            function getName() {
+                let name = prompt("please enter your name");
+                if (name) {
+                    document.getElementById("output").innerHTML = name;
+                }
+            }
+        </script>
+    </head>
+    <br>
+    <br>
+    <header>
+        <h1>
+            You are currently browsing the CV of shaf Kenth
+        </h1>
+    </header>
+    <body>
+        <img src="C:\Users\shafy\Desktop\ITM 780\porters forces.png"></img>
+
+        <div class="nav">
+            <a href="index.html"
+            class="active">home</a>
+        </div>
+        <div class="dropdown">
+            <button
+            class="dropbtn">button 2</button>
+            <div class="dropdown-content"></div>
+        </div>
+        <a href="skills.html">skills</a>
+        <a href="WorkExperince.html">Work experience</a>
+
+       <h2>Education:
+       </h2> 
+        <div class="mydiv">
+        <p>
+            High school: North Park secondary school
+            <a href="https://www.peelschools.org/">Visit</a> 
+            <br>
+            Program: International Business technology
+        </p>
+        </div>
+        <div class="mydiv">
+        <p>
+            University: Toronto Metropolitian University
+            <a href="https://www.torontomu.ca/" >Visit</a>
+            <br>
+            Program:  Business technology management
+        </p>
+        </div>
+        <br>
+        <h2> 
+           Summary of Courses taken:
+        </h2>
+        <p>
+             Most of the courses that I've taken have been more on the technical end,
+            I've taken:
+            <ol>
+                <li>Database management</li>
+                <li>IS Security</li>
+                <li>Cloud Computing</li>
+                <li>Web Design</li>
+                <li>ICT and sustainability</li>
+                <li>Enterprise architecture</li>
+                <li>Systems analysis and design</li>
+                <li>and more</li>
+            </ol> 
+
+        </p>
+        <br>
+        <p>
+            One course that I found useful was ICT and sustainability. 
+            The course was one that I  wasn't expecting. This course:
+            <ul>
+                <li>taught me to Leverage Statistics to make informed decisions</li>
+                <li>gave me experience on how real world decsions are made</li>
+                <li>helped me understand how sustainability is being integrated into IT</li>
+                <li>and Get a thorough understanding of the changes in our enviroment</li>
+            </ul>
+        </p>
+        <br>
+        <h2>
+            Awards:
+        </h2>
+        <ul>
+           <li>Academic achievement awards</li>
+           <li>Enterance scholarship</li>
+           <li>Other Scholarships</li>
+        </ul>
+        <br>
+        <h2>
+            Extra curricular activities:
+        </H2>
+        <p>
+            I have embarked on many extra curriculars outside of school. They include:
+            <Ul>
+                <li>Volunteering at a charaties providing Business servives like:</li>
+                    <ol>
+                        <li>Database Management</li>
+                        <li>creating financial staatements</li>
+                        <li>Leading summer camp</li>
+                        <li> Mangaging a small team of youth coordinators</li>
+                    </ol>
+                <li>Leading youth Camps and sports programs</li>
+                <li>providing restaurants in my area with free videogprahy and social media managemnet servives</li>
+            </Ul>
+        </p>
+        <h5>enter your name</h5>
+        <button onclick="getName()"> 
+            click me
+        </button>
+        <div id="output"></div>
+    </body>
+</html>

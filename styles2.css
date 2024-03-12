@@ -1,0 +1,10 @@
+body, html{
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+    font-family: sans-serif;
+}
+
+.button:hover{
+    background-color: black;
+}
