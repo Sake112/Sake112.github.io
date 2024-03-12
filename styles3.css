@@ -1,10 +1,16 @@
 h1{
     align-items: center;
-    background-color: darkgray;
+    background-color: gray;
     color: black;
 }
 
 body{
-    background-color: gray;
+    background-color: dark gray;
     text-align: center;
+}
+
+form{
+    border-width: 3px;
+    border-style: ridge;
+    background-color: beige;
 }
