@@ -1,10 +1,19 @@
 body, html{
+    display: flex;
     justify-content: center;
     align-items: center;
     background-color: darkgray;
     font-family: sans-serif;
 }
 
+button{
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    border: 3px;
+    cursor: pointer;
+}
 .button:hover{
     background-color: black;
 }
