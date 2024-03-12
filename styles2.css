@@ -10,9 +10,6 @@ body{
     height: 200px;
     background-color: darkgray;
     font-family: sans-serif;
-}
-
-button{
     padding: 12px;
     text-decoration: none;
     color: white;
@@ -20,6 +17,7 @@ button{
     border: 3px;
     cursor: pointer;
 }
+
 .button:hover{
-    background-color: black;
+    background-color: white;
 }
