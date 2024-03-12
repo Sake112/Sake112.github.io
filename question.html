@@ -1,11 +1,50 @@
 <Html>
+    <link rel="stylesheet" href="styles2.css">
     <body>
         <h1>First.... answer these questions</h1>
+        <!--for the singel line text element-->
+        
         <form id="entry questions">
-            <label for="single.line">Enter your first name</label>
+
+        <label for="single.line">Enter your first name</label>
             <input type="text" id="single.line" placeholder="Not abc 123"> 
+
+        <!--for the last name also used as password--> 
+        <label for="password">Enter your last name (this will be used as a password)</label>
+            <input type="password" id="password">
+
+        <!--for the radio buttons-->
+        <label>Why have you come?</label>
+            <input type="radio" value="To spy" name="To spy">
+            <input type="radio" value="For business" name="For business">
+
+        <!--for the checkboxes-->
+        <label>Click all that apply</label>
+            <input type="checkbox" value="I am a recruiter" name="I am a recruiter">
+            <input type="checkbox" value="I am at this page for a current job" name="Current position">
+            <input type="checkbox" value="I am just here for fun" name="creep">
+
+        <!--for multiline text feild-->
+        <label for="MLtext">What is the most valuable skill in your feild and what is the best way to aquire it?</label>
+            <textarea id="MLtext" name="valueable skill and how to aquire"></textarea>
+
+        <!--for drop down select-->
+        <label for="Options"> What feild are you in?</label>
+            <select id="Options" name="Options">
+                <option value="IT">IT</option>
+                <option value="CS">CS</option>
+                <option value="FIN">FIN</option>
+                <option value="ENG">ENG</option>
+                <option value="MED">MED</option>
+            </select>
+
+        <!--for submitting-->
+        <input type="submit" value="submit">
+
+        <!--Reset buton added-->
+        <input type="reset" value="reset"
         </form>
 
-        <a href="WorkExperince.html" class="center">submit</a>
+        <a href="WorkExperince.html" class="center">continue</a>
     </body>
 </Html>
