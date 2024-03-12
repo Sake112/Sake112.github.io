@@ -1,11 +1,11 @@
 h1{
     align-items: center;
-    background-color: gray;
+    background-color:lightgray;
     color: black;
 }
 
 body{
-    background-color: dark gray;
+    background-color: whitesmoke;
     text-align: center;
 }
 
@@ -13,4 +13,5 @@ form{
     border-width: 3px;
     border-style: ridge;
     background-color: beige;
+    box
 }
