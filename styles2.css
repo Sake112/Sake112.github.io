@@ -6,6 +6,7 @@ body{
     color: white;
     text-transform: uppercase;
     border: 3px;
+    cursor: pointer;
 }
 
 .center{
