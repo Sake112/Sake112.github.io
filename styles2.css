@@ -1,4 +1,6 @@
 body, html{
+    height: 100%;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,6 +9,7 @@ body, html{
 }
 
 button{
+    align-items: center;
     padding: 12px;
     text-decoration: none;
     color: white;
