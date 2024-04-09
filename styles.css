@@ -11,12 +11,12 @@ body {
     }
 
     .nav{
-        background-color: aquamarine;
+        background-color: lightgray;
         overflow: hidden;
     }
 
     .nav a:hover {
-        background-color: aquamarine;
+        background-color: lightgray;
         color: antiquewhite;
     }
 
@@ -37,7 +37,7 @@ body {
     }
     
     H1 {
-        color: #303030; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size: larger;
+        color: #303030; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: bolder; font-size: larger; background-color: gold;
     }
 
     h2 {
