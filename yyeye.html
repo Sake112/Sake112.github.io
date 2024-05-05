@@ -1,73 +1,88 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>The main page of the resume of shaf kenth</title>
-        <meta name="keywords" content="Shaf kenth, shaf kenth resume, business student, SQL ceritified">
-        <meta name="Description" content="Resume of shaf kenth">
-        <meta name="Author" content="Shaf kenth">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <style>
-
-            a.button{
-                background-color: red;
-                color: white;
-                border:none;
-                padding: 3px 5px;
-                text-decoration: none;
-                font-family: Arial;
-                cursor: pointer;
-                height: 15px;
-                width:20px;
-            }
-            body{
-              margin: 5px;
-              width:100vw;
-              height: 100vh;
-              background-color: #002147;
-              font-family: Arial, sans-serif;
-              color: white;
-              align-items: center;
-            }
-            
-            header{
-            margin: 0px;
-            width: 100vw;
-            }
-            
-            hr{
-              background-color: #ffd700;
-            }
-
-        </style>
-    </head>
-    <br>
-    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume of Shaf Kenth</title>
+    <meta name="keywords" content="Shaf Kenth, resume, business student, SQL certified">
+    <meta name="description" content="The professional portfolio of Shaf Kenth">
+    <meta name="author" content="Shaf Kenth">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4facfe;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #4facfe;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .divider {
+            height: 3px;
+            background-color: gold;
+        }
+    </style>
+</head>
+<body>
     <header>
-       <h1>
-            Welcome to my website
-        </h1>
+        <h1>Welcome to My Website</h1>
     </header>
-    <div style = "height:3px ; background-color: gold"></div>
-    
-    <br>
-    
-    <body>
-        <a href="hobbies.html" class="button" aria-label="hobbies">Hobbies</a>
-        <br>
-        <a href="acc.html" class="button" aria-label="Accomplishments">Accomplishments</a>
-        <br>
-        <a href="skills.html" class="button" aria-label="skills">Skills</a>
-        <br>
-        <a href="Work.html" class="button" aria-label="experience">Experience</a>
-        <br>
-        <br>
-        
-        <div style = "height:3px ; background-color: gold"></div>
-        
-       <h3>Hey,</h3>
-       <p>Welcome to my website. My name is Shaf. I made this website so you could more easily see who I am.
-        You can view my experience, Skills, Accomplishments, and interests by clicking the links above. If you have time please click the link
-        below to complete a short survey. Thanks.
-       </p> 
-       <a href="question.html" class="button">survey</a>
-    </body>
+    <div class="divider"></div>
+    <nav>
+        <a href="hobbies.html" aria-label="Hobbies">Hobbies</a>
+        <a href="acc.html" aria-label="Accomplishments">Accomplishments</a>
+        <a href="skills.html" aria-label="Skills">Skills</a>
+        <a href="Work.html" aria-label="Experience">Experience</a>
+    </nav>
+    <main>
+        <section>
+            <h3>Hey,</h3>
+            <p>Welcome to my website. My name is Shaf. I made this website so you could more easily see who I am.
+            You can view my experience, skills, accomplishments, and interests by clicking the links above. If you have time, please click the link
+            below to complete a short survey. Thanks.</p>
+            <a href="question.html" class="button">Survey</a>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Shaf Kenth. All rights reserved.</p>
+    </footer>
+</body>
 </html>
