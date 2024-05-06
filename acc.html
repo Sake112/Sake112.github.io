@@ -1,78 +1,98 @@
-<html>
-    <html lang="en">
-    <head>
-        <title>The accomplisments page of the resume of shaf kenth</title>
-        <meta name="keywords" content="Shaf kenth, shaf kenth resume, business student, SQL ceritified">
-        <meta name="Description" content="Resume of shaf kenth">
-        <meta name="Author" content="Shaf kenth">
-        <meta name="viewport" content="width=device-width,initial-scale=1.0">
-        <style>
-
-            a.button{
-                background-color: red;
-                color: white;
-                border:none;
-                padding: 3px 5px;
-                text-decoration: none;
-                font-family: Arial;
-                cursor: pointer;
-                height: 15px;
-                width:20px;
-            }
-            body{
-              margin: 5px;
-              width:100vw;
-              height: 100vh;
-              background-color: #002147;
-              font-family: Arial, sans-serif;
-              color: white;
-              align-items: center;
-            }
-            
-            header{
-            margin: 0px;
-            width: 100vw;
-            }
-            
-            hr{
-              background-color: #ffd700;
-            }
-
-        </style>
-    </head>
-    <br>
-    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accomplishments - Shaf Kenth</title>
+    <meta name="keywords" content="Shaf Kenth, accomplishments, business student, SQL certified">
+    <meta name="description" content="Explore the professional achievements of Shaf Kenth.">
+    <meta name="author" content="Shaf Kenth">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #4facfe;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 1rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 0 0.5rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0056b3;
+        }
+        main {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #4facfe;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .divider {
+            height: 3px;
+            background-color: gold;
+        }
+        .accomplishments-list dt {
+            font-weight: bold;
+        }
+        .accomplishments-list dd {
+            margin: 0 0 1rem 2rem;
+            background-color: #e7e7e7;
+            padding: 0.5rem;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
     <header>
-       <h1>
-            Accomplishments
-        </h1>
+        <h1>Accomplishments</h1>
     </header>
-    <div style = "height:3px ; background-color: gold"></div>
-    
-    <br>
-    
-    <body>
-        <a href="yyeye.html" class="button" aria-label="Home">Home</a>
-        <br>
-        <a href="hobbies.html" class="button" aria-label="hobbies">hobbies</a>
-        <br>
-        <a href="skills.html" class="button" aria-label="skills">Skills</a>
-        <br>
-        <a href="Work.html" class="button" aria-label="experience">Experience</a>
-        <br>
-        <br>
-        
-        <div style = "height:3px ; background-color: gold"></div>
-        
-       <h4>My Accomplishments include:</h4>
-       <dl>
-        <dt>Creating a website</dt>
-        <dd>Created my own website, the one you are seeing right now acctually, from scratch</dd>
-        <dt>started my own company</dt>
-        <dd>created a digital marketing compnay from scratch and boosted sales 400%<dd>
-        <dt>created my own AI</dt>
-        <dd>created and AI algorith for NLP and differentiate text in images wiht 91% accuracy</dd>
-       </dl>
-    </body>
-</html>
+    <div class="divider"></div>
+    <nav>
+        <a href="index.html" aria-label="Home">Home</a>
+        <a href="hobbies.html" aria-label="Hobbies">Hobbies</a>
+        <a href="skills.html" aria-label="Skills">Skills</a>
+        <a href="Work.html" aria-label="Experience">Experience</a>
+    </nav>
+    <main>
+        <section>
+            <h2>My Key Accomplishments:</h2>
+            <dl class="accomplishments-list">
+                <dt>Website Development</dt>
+                <dd>Developed this very website from the ground up, showcasing my web design skills.</dd>
+                <dt>Entrepreneurship</dt>
+                <dd>Founded a digital marketing company, achieving a 400% increase in sales.</dd>
+                <dt>Artificial Intelligence</dt>
+                <dd>Engineered an AI algorithm for natural language processing, achieving 91% accuracy in text recognition within images.</dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Shaf Kenth. All rights reserved.</p>
+    </footer>
+</body>
 </html>
